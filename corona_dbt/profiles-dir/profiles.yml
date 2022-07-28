@@ -1,0 +1,17 @@
+snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ko72388.ap-south-1.aws
+
+      # User/password auth
+      user: "rajabicube"
+      password:  "BIcube562"
+      role: ACCOUNTADMIN
+      database: DATA_WAREHOUSE
+      warehouse: COMPUTE_WH
+      schema: ANALYTICS
+      threads: 10
+      client_session_keep_alive: False
+  

@@ -1,0 +1,17 @@
+
+version: 2
+
+models:
+  - name: geography
+    columns:
+      - name: region_id
+        tests:
+          - unique
+          - not_null
+
+  - name: date_report
+    columns:
+      - name: date
+        tests:
+          - unique
+          - not_null
